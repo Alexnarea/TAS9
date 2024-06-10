@@ -1,6 +1,6 @@
 # TAS9- FUNCIONES AGREGACION 
 
-1. Obtener la edad promedio de los miembros:
+### 1. Obtener la edad promedio de los miembros:
 - Sentencia:
 ```
 SELECT AVG (age) AS edad_promedio
@@ -11,7 +11,7 @@ FROM member;
 
 <img src="./TAS9-capturas/Pasted image 20240610130105.png" alt="drawing0" width="500"/>
 
- 2. Obtener la edad mínima de los miembros:
+ ### 2. Obtener la edad mínima de los miembros:
 ---
 - Sentencia:
 ```
@@ -23,7 +23,7 @@ FROM member;
 <img src="./TAS9-capturas/Pasted image 20240610130234.png" alt="drawing0" width="500"/>
 
 
-3. Obtener el número total de registros asistidos:
+### 3. Obtener el número total de registros asistidos:
 ---
 - Sentencia:
 ```
@@ -34,7 +34,7 @@ FROM register;
 - Captura
 <img src="./TAS9-capturas/Pasted image 20240610130633.png" alt="drawing0" width="500"/>
 
-4. Obtener el número total de asistentes a todas las conferencias
+### 4. Obtener el número total de asistentes a todas las conferencias
 ---
 - Sentencia:
 ```
@@ -45,7 +45,7 @@ FROM conference;
 - Captura
 <img src="./TAS9-capturas/Pasted image 20240610130950.png" alt="drawing0" width="500"/>
 
-5. Obtener el número total de eventos por cada ciudad:
+### 5. Obtener el número total de eventos por cada ciudad:
 ---
 - Sentencia:
 ```
@@ -57,7 +57,7 @@ GROUP BY city;
 - Captura
 <img src="./TAS9-capturas/Pasted image 20240610131240.png" alt="drawing0" width="500"/>
 
-6. Obtener el número de registros por cada miembro:
+### 6. Obtener el número de registros por cada miembro:
 ---
 - Sentencia:
 ```
@@ -69,7 +69,7 @@ GROUP BY member_id;
 - Captura
 <img src="./TAS9-capturas/Pasted image 20240610131506.png" alt="drawing0" width="500"/>
 
-7. Obtener el número de registros por cada conferencia: 
+### 7. Obtener el número de registros por cada conferencia: 
 ---
 - Sentencia:
 ```
